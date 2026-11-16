@@ -3,7 +3,7 @@ AK1 Café - simple customer-facing cafe interface (frontend only).
 
 Plain Tkinter + the Python standard library only - no extra packages.
 
-Run:  python cafe_app.py
+Run:  python src/cafe_app.py
 """
 
 import datetime

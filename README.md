@@ -4,11 +4,23 @@ A simple desktop front end for a café, written in Python with **Tkinter**.
 Customers can browse the menu, add items to a cart, place an order and book a table.
 It is a front end only: nothing is saved or sent anywhere.
 
-## Run
+## How to run the project (front end)
 
-```bash
-python cafe_app.py
-```
+1. Install **Python 3** from [python.org](https://www.python.org/downloads/). On Windows, tick **"Add python.exe to PATH"** during setup.
+2. Download the project: click **Code → Download ZIP** on GitHub and extract it, or run
+   ```bash
+   git clone https://github.com/SenCruCiAl/ak1-cafe-app.git
+   cd ak1-cafe-app
+   ```
+3. Start the app:
+   - **Windows (easiest):** double-click `run.bat` in the project folder.
+   - **Any OS, from a terminal in the project folder:**
+     ```bash
+     python src/cafe_app.py
+     ```
+     (on macOS/Linux use `python3` if `python` is not found)
+
+The café window opens. Close it to exit.
 
 Needs Python 3 only. No extra packages to install: the app uses just `tkinter`, `datetime` and `random` from the standard library.
 
@@ -39,7 +51,15 @@ Tkinter is Python's built-in GUI library. The app uses these parts of it:
 
 ## Code structure
 
-Everything is in `cafe_app.py`.
+```
+ak1-cafe-app/
+├── src/cafe_app.py        # the whole app
+├── run.bat                # double-click to run on Windows
+├── RA2511026010619.pdf    # project report
+└── README.md
+```
+
+All the code is in `src/cafe_app.py`.
 
 | Name | Kind | What it does |
 |---|---|---|
